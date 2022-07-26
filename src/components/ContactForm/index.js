@@ -13,6 +13,7 @@ function ContactForm() {
                         <label for="request">Your request</label>
                         <textarea name='request'></textarea>
                     </div>
+                    <button className='btn btn-primary' type='submit'>Submit</button>
                 </form>
             </div>
         </div>

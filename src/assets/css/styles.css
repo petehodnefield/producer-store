@@ -54,8 +54,15 @@ a {
     border: 3px solid var(--white);
 }
 
+.btn-primary {
+    padding: .2rem 4rem;
+    margin-top: 1rem;
+    background-color: var(--primary);
+}
+
 .btn:hover {
     opacity: .7;
+    cursor: pointer;
 }
 .link-btn {
     color: var(--white);
