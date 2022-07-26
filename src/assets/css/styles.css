@@ -6,6 +6,7 @@
     --primary: #04D1F1;
     --secondary: #ed9146;
     --white: #ffffff;
+    --dark: #111111;
 }
 
 
@@ -43,6 +44,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
 }
 
 .btn {
@@ -78,6 +80,43 @@ a {
 .carousel-img {
     width: 100%;
     height: 100%;
+}
+
+/* ContactForm style begin */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary);
+    padding: 4rem;
+    border: 3px solid var(--white);
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--secondary);
+    width: 75%;
+}
+
+.contact-container {
+    background: var(--dark);
+    width: 80%;
+    border-radius: 20px;
+    padding: 4rem 0;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-input {
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: .2rem 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: 2px solid var(--primary);
+    color: var(--dark);
 }
 
 /* Footer style begin */
