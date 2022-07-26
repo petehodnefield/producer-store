@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #04D1F1;
+    --secondary: #ed9146;
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--primary);
+    color: #ffffff;
+}
+
+.header, .footer {
+    background: var(--secondary);
+}
